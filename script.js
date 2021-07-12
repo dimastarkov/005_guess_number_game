@@ -48,7 +48,7 @@ let highScore = 0;    //начальный highscore
 
           //выиграли
         } else if (guessNumber === secretNumber) {
-          displayMessage('Correct Number!'); //сообщение
+          displayMessage('Правильно!'); //сообщение
           document.querySelector('body').style.backgroundColor = '#60b347';   //фон
           document.querySelector('.number').textContent = secretNumber;       //вставляем наше секреное число 'number' в поле .number
           //считаем новый highscore
