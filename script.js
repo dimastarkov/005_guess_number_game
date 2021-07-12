@@ -44,7 +44,7 @@ let highScore = 0;    //начальный highscore
 
         //не ввели значение
         if (!guessNumber) { 
-          displayMessage('NO NUMBER (!)');
+          displayMessage('Нет числа (!)');
 
           //выиграли
         } else if (guessNumber === secretNumber) {
@@ -61,7 +61,7 @@ let highScore = 0;    //начальный highscore
         } else {
           score--;
           document.querySelector('.score').textContent = score;
-          displayMessage(guessNumber > secretNumber ? 'too high' : 'too low');
+          displayMessage(guessNumber > secretNumber ? 'Много' : 'Мало');
         };
       
       
