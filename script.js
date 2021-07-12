@@ -86,7 +86,7 @@ let againBtn = document.querySelector('.again').addEventListener('click', functi
   secretNumber = secretNum();
   score = 20;
   document.querySelector('.score').textContent = score;
-  displayMessage('Start guessing...');
+  displayMessage('Начни угадывать...');
 
   });
 ////// END again кнопка
